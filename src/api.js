@@ -16,7 +16,7 @@ export const requestPasswordReset = async (userData) => {
   
   export const resetPassword = async (resetData) => {
     try {
-      const response = await fetch('https://agt-backend.onrender.com/reset-password', {
+      const response = await fetch('https://agt-backend.onrender.com/api/reset-password', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
